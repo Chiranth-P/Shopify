@@ -1,9 +1,9 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.modal.OrderItem;
-import com.zosh.repository.OrderItemRepository;
+import com.ecommerce.modal.OrderItem;
+import com.ecommerce.repository.OrderItemRepository;
 
 @Service
 public class OrderItemServiceImplementation implements OrderItemService {

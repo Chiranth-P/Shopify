@@ -1,17 +1,17 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.modal.Review;
-import com.zosh.modal.User;
-import com.zosh.repository.ProductRepository;
-import com.zosh.repository.ReviewRepository;
-import com.zosh.request.ReviewRequest;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.modal.Product;
+import com.ecommerce.modal.Review;
+import com.ecommerce.modal.User;
+import com.ecommerce.repository.ProductRepository;
+import com.ecommerce.repository.ReviewRepository;
+import com.ecommerce.request.ReviewRequest;
 
 @Service
 public class ReviewServiceImplementation implements ReviewService {

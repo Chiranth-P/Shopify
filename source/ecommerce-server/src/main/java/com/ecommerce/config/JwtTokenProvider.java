@@ -1,4 +1,4 @@
-package com.zosh.config;
+package com.ecommerce.config;
 
 import java.util.Collection;
 import java.util.Date;

@@ -1,14 +1,14 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.Product;
-import com.zosh.modal.User;
-import com.zosh.repository.CartRepository;
-import com.zosh.request.AddItemRequest;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.modal.Cart;
+import com.ecommerce.modal.CartItem;
+import com.ecommerce.modal.Product;
+import com.ecommerce.modal.User;
+import com.ecommerce.repository.CartRepository;
+import com.ecommerce.request.AddItemRequest;
 
 @Service
 public class CartServiceImplementation implements CartService{

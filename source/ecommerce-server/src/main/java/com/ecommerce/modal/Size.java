@@ -1,11 +1,8 @@
-package com.zosh.modal;
+package com.ecommerce.modal;
 
 
 import jakarta.persistence.Embeddable;
 import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @Embeddable
 @Data

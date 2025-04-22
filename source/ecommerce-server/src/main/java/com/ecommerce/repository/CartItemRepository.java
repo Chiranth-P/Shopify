@@ -1,12 +1,12 @@
-package com.zosh.repository;
+package com.ecommerce.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.Product;
+import com.ecommerce.modal.Cart;
+import com.ecommerce.modal.CartItem;
+import com.ecommerce.modal.Product;
 
 public interface CartItemRepository extends JpaRepository<CartItem, Long>{
 

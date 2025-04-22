@@ -1,7 +1,7 @@
-package com.zosh.modal;
+package com.ecommerce.modal;
 
-import com.zosh.user.domain.PaymentMethod;
-import com.zosh.user.domain.PaymentStatus;
+import com.ecommerce.user.domain.PaymentMethod;
+import com.ecommerce.user.domain.PaymentStatus;
 import lombok.Data;
 
 @Data

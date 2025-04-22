@@ -1,8 +1,8 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
-import com.zosh.modal.User;
-import com.zosh.repository.UserRepository;
-import com.zosh.user.domain.UserRole;
+import com.ecommerce.modal.User;
+import com.ecommerce.repository.UserRepository;
+import com.ecommerce.user.domain.UserRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;

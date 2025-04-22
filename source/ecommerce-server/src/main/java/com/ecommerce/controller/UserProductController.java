@@ -1,4 +1,4 @@
-package com.zosh.controller;
+package com.ecommerce.controller;
 
 import java.util.List;
 
@@ -11,10 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.service.ProductService;
-import com.zosh.user.domain.ProductSubCategory;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.modal.Product;
+import com.ecommerce.service.ProductService;
 
 @RestController
 @RequestMapping("/api")

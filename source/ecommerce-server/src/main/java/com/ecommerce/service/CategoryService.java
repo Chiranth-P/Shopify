@@ -1,6 +1,4 @@
-package com.zosh.service;
-
-import lombok.Data;
+package com.ecommerce.service;
 
 public class CategoryService {
 

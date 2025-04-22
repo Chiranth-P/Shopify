@@ -1,4 +1,4 @@
-package com.zosh.exception;
+package com.ecommerce.exception;
 
 import java.net.http.HttpHeaders;
 import java.time.LocalDateTime;

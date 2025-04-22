@@ -1,11 +1,9 @@
-package com.zosh.request;
+package com.ecommerce.request;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import com.zosh.modal.Category;
-import com.zosh.modal.Size;
-import com.zosh.user.domain.ProductSize;
+import com.ecommerce.modal.Size;
 
 
 public class CreateProductRequest {

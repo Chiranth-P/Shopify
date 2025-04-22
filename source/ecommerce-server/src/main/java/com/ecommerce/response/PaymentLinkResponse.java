@@ -1,4 +1,4 @@
-package com.zosh.response;
+package com.ecommerce.response;
 
 public class PaymentLinkResponse {
 	

@@ -1,13 +1,12 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.request.CreateProductRequest;
-import com.zosh.user.domain.ProductSubCategory;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.modal.Product;
+import com.ecommerce.request.CreateProductRequest;
 
 public interface ProductService {
 	

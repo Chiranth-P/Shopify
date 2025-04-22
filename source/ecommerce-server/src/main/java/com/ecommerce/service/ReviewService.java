@@ -1,11 +1,11 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import java.util.List;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Review;
-import com.zosh.modal.User;
-import com.zosh.request.ReviewRequest;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.modal.Review;
+import com.ecommerce.modal.User;
+import com.ecommerce.request.ReviewRequest;
 
 public interface ReviewService {
 

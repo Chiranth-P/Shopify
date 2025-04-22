@@ -1,16 +1,16 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.modal.Rating;
-import com.zosh.modal.User;
-import com.zosh.repository.RatingRepository;
-import com.zosh.request.RatingRequest;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.modal.Product;
+import com.ecommerce.modal.Rating;
+import com.ecommerce.modal.User;
+import com.ecommerce.repository.RatingRepository;
+import com.ecommerce.request.RatingRequest;
 
 @Service
 public class RatingServiceImplementation implements RatingServices{

@@ -1,4 +1,4 @@
-package com.zosh.controller;
+package com.ecommerce.controller;
 
 import java.util.List;
 
@@ -7,19 +7,18 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.OrderException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Address;
-import com.zosh.modal.Order;
-import com.zosh.modal.User;
-import com.zosh.service.OrderService;
-import com.zosh.service.UserService;
+import com.ecommerce.exception.OrderException;
+import com.ecommerce.exception.UserException;
+import com.ecommerce.modal.Address;
+import com.ecommerce.modal.Order;
+import com.ecommerce.modal.User;
+import com.ecommerce.service.OrderService;
+import com.ecommerce.service.UserService;
 
 @RestController
 @RequestMapping("/api/orders")

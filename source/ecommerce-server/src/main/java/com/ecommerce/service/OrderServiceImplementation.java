@@ -1,28 +1,26 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.OrderException;
-import com.zosh.modal.Address;
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.Order;
-import com.zosh.modal.OrderItem;
-import com.zosh.modal.User;
-import com.zosh.repository.AddressRepository;
-import com.zosh.repository.OrderItemRepository;
-import com.zosh.repository.OrderRepository;
-import com.zosh.repository.UserRepository;
-import com.zosh.user.domain.OrderStatus;
-import com.zosh.user.domain.PaymentStatus;
+import com.ecommerce.exception.OrderException;
+import com.ecommerce.modal.Address;
+import com.ecommerce.modal.Cart;
+import com.ecommerce.modal.CartItem;
+import com.ecommerce.modal.Order;
+import com.ecommerce.modal.OrderItem;
+import com.ecommerce.modal.User;
+import com.ecommerce.repository.AddressRepository;
+import com.ecommerce.repository.OrderItemRepository;
+import com.ecommerce.repository.OrderRepository;
+import com.ecommerce.repository.UserRepository;
+import com.ecommerce.user.domain.OrderStatus;
+import com.ecommerce.user.domain.PaymentStatus;
 
 @Service
 public class OrderServiceImplementation implements OrderService {

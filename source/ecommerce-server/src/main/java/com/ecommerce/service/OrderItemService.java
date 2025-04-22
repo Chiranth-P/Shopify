@@ -1,6 +1,6 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
-import com.zosh.modal.OrderItem;
+import com.ecommerce.modal.OrderItem;
 
 public interface OrderItemService {
 	

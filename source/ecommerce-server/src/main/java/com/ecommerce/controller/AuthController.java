@@ -1,4 +1,4 @@
-package com.zosh.controller;
+package com.ecommerce.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,16 +13,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.config.JwtTokenProvider;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Cart;
-import com.zosh.modal.User;
-import com.zosh.repository.UserRepository;
-import com.zosh.request.LoginRequest;
-import com.zosh.response.AuthResponse;
-import com.zosh.service.CartService;
-import com.zosh.service.CustomUserDetails;
-import com.zosh.user.domain.UserRole;
+import com.ecommerce.config.JwtTokenProvider;
+import com.ecommerce.exception.UserException;
+import com.ecommerce.modal.User;
+import com.ecommerce.repository.UserRepository;
+import com.ecommerce.request.LoginRequest;
+import com.ecommerce.response.AuthResponse;
+import com.ecommerce.service.CartService;
+import com.ecommerce.service.CustomUserDetails;
 
 import jakarta.validation.Valid;
 

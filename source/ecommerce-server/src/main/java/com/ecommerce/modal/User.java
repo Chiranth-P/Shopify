@@ -1,10 +1,9 @@
-package com.zosh.modal;
+package com.ecommerce.modal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.zosh.user.domain.UserRole;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

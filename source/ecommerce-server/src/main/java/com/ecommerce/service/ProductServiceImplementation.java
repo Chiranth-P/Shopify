@@ -1,4 +1,4 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 
 import java.time.LocalDateTime;
@@ -12,13 +12,12 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Category;
-import com.zosh.modal.Product;
-import com.zosh.repository.CategoryRepository;
-import com.zosh.repository.ProductRepository;
-import com.zosh.request.CreateProductRequest;
-import com.zosh.user.domain.ProductSubCategory;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.modal.Category;
+import com.ecommerce.modal.Product;
+import com.ecommerce.repository.CategoryRepository;
+import com.ecommerce.repository.ProductRepository;
+import com.ecommerce.request.CreateProductRequest;
 
 @Service
 public class ProductServiceImplementation implements ProductService {

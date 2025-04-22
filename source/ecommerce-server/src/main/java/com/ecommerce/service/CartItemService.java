@@ -1,10 +1,10 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
-import com.zosh.exception.CartItemException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.Product;
+import com.ecommerce.exception.CartItemException;
+import com.ecommerce.exception.UserException;
+import com.ecommerce.modal.Cart;
+import com.ecommerce.modal.CartItem;
+import com.ecommerce.modal.Product;
 
 public interface CartItemService {
 	

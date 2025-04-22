@@ -1,4 +1,4 @@
-package com.zosh.controller;
+package com.ecommerce.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.CartItemException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.User;
-import com.zosh.response.ApiResponse;
-import com.zosh.service.CartItemService;
-import com.zosh.service.UserService;
+import com.ecommerce.exception.CartItemException;
+import com.ecommerce.exception.UserException;
+import com.ecommerce.modal.CartItem;
+import com.ecommerce.modal.User;
+import com.ecommerce.response.ApiResponse;
+import com.ecommerce.service.CartItemService;
+import com.ecommerce.service.UserService;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 

@@ -1,4 +1,4 @@
-package com.zosh.controller;
+package com.ecommerce.controller;
 
 import java.util.List;
 
@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.ProductException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Review;
-import com.zosh.modal.User;
-import com.zosh.request.ReviewRequest;
-import com.zosh.service.ReviewService;
-import com.zosh.service.UserService;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.exception.UserException;
+import com.ecommerce.modal.Review;
+import com.ecommerce.modal.User;
+import com.ecommerce.request.ReviewRequest;
+import com.ecommerce.service.ReviewService;
+import com.ecommerce.service.UserService;
 
 @RestController
 @RequestMapping("/api/reviews")

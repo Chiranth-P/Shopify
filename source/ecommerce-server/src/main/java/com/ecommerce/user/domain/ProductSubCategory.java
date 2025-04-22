@@ -1,4 +1,4 @@
-package com.zosh.user.domain;
+package com.ecommerce.user.domain;
 
 public enum ProductSubCategory {
 	

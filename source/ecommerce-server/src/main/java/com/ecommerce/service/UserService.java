@@ -1,9 +1,9 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import java.util.List;
 
-import com.zosh.exception.UserException;
-import com.zosh.modal.User;
+import com.ecommerce.exception.UserException;
+import com.ecommerce.modal.User;
 
 public interface UserService {
 	

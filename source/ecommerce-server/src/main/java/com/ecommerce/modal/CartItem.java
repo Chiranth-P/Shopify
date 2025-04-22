@@ -1,6 +1,4 @@
-package com.zosh.modal;
-
-import java.util.Objects;
+package com.ecommerce.modal;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

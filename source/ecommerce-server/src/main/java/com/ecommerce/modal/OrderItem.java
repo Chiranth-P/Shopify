@@ -1,7 +1,6 @@
-package com.zosh.modal;
+package com.ecommerce.modal;
 
 import java.time.LocalDateTime;
-import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -11,7 +10,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
-import lombok.Getter;
 
 
 @Data

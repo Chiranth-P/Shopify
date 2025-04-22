@@ -1,11 +1,11 @@
-package com.zosh.service;
+package com.ecommerce.service;
 
 import java.util.List;
 
-import com.zosh.exception.OrderException;
-import com.zosh.modal.Address;
-import com.zosh.modal.Order;
-import com.zosh.modal.User;
+import com.ecommerce.exception.OrderException;
+import com.ecommerce.modal.Address;
+import com.ecommerce.modal.Order;
+import com.ecommerce.modal.User;
 
 public interface OrderService {
 	

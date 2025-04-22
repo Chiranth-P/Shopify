@@ -1,4 +1,4 @@
-package com.zosh.request;
+package com.ecommerce.request;
 
 public class RatingRequest {
 

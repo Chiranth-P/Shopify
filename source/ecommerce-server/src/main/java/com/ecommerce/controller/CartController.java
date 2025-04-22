@@ -1,4 +1,4 @@
-package com.zosh.controller;
+package com.ecommerce.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.ProductException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.User;
-import com.zosh.request.AddItemRequest;
-import com.zosh.response.ApiResponse;
-import com.zosh.service.CartService;
-import com.zosh.service.UserService;
+import com.ecommerce.exception.ProductException;
+import com.ecommerce.exception.UserException;
+import com.ecommerce.modal.Cart;
+import com.ecommerce.modal.CartItem;
+import com.ecommerce.modal.User;
+import com.ecommerce.request.AddItemRequest;
+import com.ecommerce.response.ApiResponse;
+import com.ecommerce.service.CartService;
+import com.ecommerce.service.UserService;
 
 @RestController
 @RequestMapping("/api/cart")

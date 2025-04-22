@@ -1,4 +1,4 @@
-package com.zosh.modal;
+package com.ecommerce.modal;
 
 import java.time.LocalDateTime;
 
