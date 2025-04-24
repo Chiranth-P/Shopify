@@ -9,6 +9,7 @@ import OrderTraker from "../orders/OrderTraker";
 import AddressCard from "../adreess/AdreessCard";
 import { useParams } from "react-router-dom";
 
+
 const PaymentSuccess = () => {
   // razorpay_payment_link_reference_id
   // razorpay_payment_id
@@ -22,11 +23,13 @@ const PaymentSuccess = () => {
   const jwt = localStorage.getItem("jwt");
   const dispatch = useDispatch();
   const { order } = useSelector((store) => store);
+  const [order_id, setOrderId] = useState("");
+
 
   useEffect(() => {
     console.log("orderId",orderId)
     const urlParams = new URLSearchParams(window.location.search);
-    setPaymentId(urlParams.get("razorpay_payment_id"));
+    setPaymentId(urlParams.get("razorpay_payment_link_id"));
     setReferenceId(urlParams.get("razorpay_payment_link_reference_id"));
     setPaymentStatus(urlParams.get("razorpay_payment_link_status"));
   }, []);
@@ -48,7 +51,7 @@ const PaymentSuccess = () => {
           sx={{ mb: 6, width: "fit-content" }}
         >
           <AlertTitle>Payment Success</AlertTitle>
-          Congratulation Your Order Get Placed
+          Congratulation Your Order is Placed
         </Alert>
       </div>
 

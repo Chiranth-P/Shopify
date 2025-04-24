@@ -1,6 +1,7 @@
 package com.ecommerce.controller;
 
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -37,10 +38,15 @@ public class PaymentController {
 
 	    @Value("${razorpay.api.secret}")
 	    private String apiSecret;
-	
-	private OrderService orderService;
-	private UserService userService;
-	private OrderRepository orderRepository;
+
+		@Autowired
+		private OrderService orderService;
+
+		@Autowired
+		private UserService userService;
+
+		@Autowired
+		private OrderRepository orderRepository;
 	
 	public PaymentController(OrderService orderService,UserService userService,OrderRepository orderRepository) {
 		this.orderService=orderService;
@@ -83,7 +89,7 @@ public class PaymentController {
 		      paymentLinkRequest.put("reminder_enable",true);
 
 		      // Set the callback URL and method
-		      paymentLinkRequest.put("callback_url","http://localhost:4200/payment-success?order_id="+orderId);
+		      paymentLinkRequest.put("callback_url","http://localhost:3000/payment/"+orderId);
 		      paymentLinkRequest.put("callback_method","get");
 
 		      // Create the payment link using the paymentLink.create() method
@@ -137,12 +143,12 @@ public class PaymentController {
 			System.out.println(order.getPaymentDetails().getStatus()+"payment status ");
 			orderRepository.save(order);
 		}
-		ApiResponse res=new ApiResponse("your order get placed", true);
+		ApiResponse res=new ApiResponse("your order is placed", true);
 	      return new ResponseEntity<ApiResponse>(res,HttpStatus.OK);
 	      
 	} catch (Exception e) {
 		System.out.println("errrr payment -------- ");
-		new RedirectView("https://shopwithzosh.vercel.app/payment/failed");
+		new RedirectView("");
 		throw new RazorpayException(e.getMessage());
 	}
 

@@ -70,19 +70,19 @@ const Footer = () => {
       </Grid>
       <Grid className='pt-20' item xs={12} >
         <Typography variant="body2" component="p" align="center">
-          &copy; 2023 My Company. All rights reserved.
+          &copy; 2025 My Company. All rights reserved.
         </Typography>
         <Typography variant="body2" component="p" align="center">
-          Made with love by Me.
+          Made with love by Chiranth.
         </Typography>
         <Typography variant="body2" component="p" align="center">
           Icons made by{' '}
-          <Link href="https://www.freepik.com" color="inherit" underline="always">
-            Freepik
+          <Link href="https://www.mui.com" color="inherit" underline="always">
+            MUI Icons
           </Link>{' '}
           from{' '}
-          <Link href="https://www.flaticon.com/" color="inherit" underline="always">
-            www.flaticon.com
+          <Link href="https://www.mui.com" color="inherit" underline="always">
+          https://www.mui.com
           </Link>
         </Typography>
       </Grid>
