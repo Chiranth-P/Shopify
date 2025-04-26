@@ -1,6 +1,7 @@
 # 🛒 Shopify - Full Stack E-Commerce Application
 
 A fully functional e-commerce web application built with **React.js**, **Spring Boot**, **MySQL**, and integrated with **Razorpay** for secure payments.
+Please go thorugh the below information to know the app better!
 
 ### 🚀 Live Demo
 
