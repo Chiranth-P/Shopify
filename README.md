@@ -5,7 +5,7 @@ A fully functional e-commerce web application built with **React.js**, **Spring 
 ### 🚀 Live Demo
 
 ⚠️(Please note that only the Women's section is active now due to Railways Free Trial sql storage shortage....Follow the instructions given below for the setup).
-NOTE: You need to REGISTER as ADMIN to add products in the respective category(ONLY IN WOMEN'S SECTION as mentioned above). 
+NOTE: You need to REGISTER as ADMIN to add products in the respective category(ONLY IN WOMEN'S SECTION IN THE NAVBAR as mentioned above). 
 
 
 Website: https://shopify-seven-sand.vercel.app  
