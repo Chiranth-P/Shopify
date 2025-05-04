@@ -27,7 +27,7 @@ Website: https://shopify-seven-sand.vercel.app
 
 ### 🔸 Backend
 - Spring Boot
-- Java 15
+- Java 21
 - RESTful APIs
 - Razorpay Java SDK
 - MySQL (Database)
